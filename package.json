@@ -1,0 +1,27 @@
+{
+  "name": "react-native-signup-checkbox",
+  "version": "1.0.0",
+  "description": "checkbox list when signup for react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liveforownhappiness/react-native-signup-checkbox.git"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "liveforownhappiness@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liveforownhappiness/react-native-signup-checkbox/issues"
+  },
+  "homepage": "https://github.com/liveforownhappiness/react-native-signup-checkbox#readme",
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.3",
+    "@react-native-community/checkbox": "^0.5.16"
+  }
+}
