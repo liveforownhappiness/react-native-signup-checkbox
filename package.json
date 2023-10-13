@@ -2,7 +2,7 @@
   "name": "react-native-signup-checkbox",
   "version": "1.0.1",
   "description": "checkbox list when signup for react native",
-  "main": "index.js",
+   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
