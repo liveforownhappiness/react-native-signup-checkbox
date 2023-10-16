@@ -1,6 +1,6 @@
 {
   "name": "react-native-signup-checkbox",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "checkbox list when signup for react native",
   "main": "dist/index.js",
   "scripts": {

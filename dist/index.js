@@ -62,7 +62,7 @@ const CheckTerms = (props) => {
     const CheckTerm = (0, react_1.useCallback)((checkTerm, index) => {
         return (<react_native_1.View style={styles.termsWrapper} key={checkTerm === null || checkTerm === void 0 ? void 0 : checkTerm.index}>
           <react_native_1.TouchableOpacity style={styles.termsTouchWrapper} onPress={() => toggleCheck(index)}>
-            <checkbox_1.default style={styles.checkBox} value={checkTerm.checked} tintColors={{ true: Colors_1.Colors.primary, false: Colors_1.Colors.gray }} onCheckColor={Colors_1.Colors.primary} tintColor={Colors_1.Colors.gray}/>
+            <checkbox_1.default disabled={true} style={styles.checkBox} value={checkTerm.checked} tintColors={{ true: Colors_1.Colors.primary, false: Colors_1.Colors.gray }} onCheckColor={Colors_1.Colors.primary} tintColor={Colors_1.Colors.gray}/>
             <react_native_1.Text style={dstyles(checkTerm.necessary).termsLabelText}>
               {necessaryText(checkTerm.necessary)}
               {checkTerm.label}

@@ -75,6 +75,7 @@ export const CheckTerms = (props: CheckTermsProps) => {
             onPress={() => toggleCheck(index)}
           >
             <CheckBox
+              disabled={true}
               style={styles.checkBox}
               value={checkTerm.checked}
               tintColors={{ true: Colors.primary, false: Colors.gray }}
@@ -119,6 +120,7 @@ export const CheckTerms = (props: CheckTermsProps) => {
           onPress={() => toggleAll(allCheck)}
         >
           <CheckBox
+            disabled={true}
             style={styles.checkBox}
             value={allCheck}
             onChange={() => toggleAll(allCheck)}
@@ -164,7 +166,7 @@ const styles = StyleSheet.create({
   selectAll: {
     fontSize: 13,
     width: '100%',
-    color: Colors.darkGray,
+    color: Colors.primary,
     fontWeight: 'bold',
   },
   detailText: {
