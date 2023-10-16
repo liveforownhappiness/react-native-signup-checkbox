@@ -2,9 +2,9 @@
 
 React Native component for sign up check list
 
-|                   Android Example                    |                   IOS Example                    |
-| :--------------------------------------------------: | :----------------------------------------------: |
-| <video src="sample/android.mp4" width="320"></video> | <video src="sample/ios.mp4" width="320"></video> |
+|                 Android Example                  |                 IOS Example                  |
+| :----------------------------------------------: | :------------------------------------------: |
+| <img src="sample/android.gif" width="320"></img> | <img src="sample/ios.gif" width="320"></img> |
 
 ## Getting started
 
