@@ -1,4 +1,4 @@
-# `react-native-signup-checkbox`
+# `react-native-signup-checkbox`(https://www.npmjs.com/package/react-native-signup-checkbox)
 
 React Native component for sign up check list
 
