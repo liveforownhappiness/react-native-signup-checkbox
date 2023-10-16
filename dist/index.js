@@ -83,7 +83,7 @@ const CheckTerms = (props) => {
     const FooterCheckTerm = (0, react_1.useCallback)(() => {
         return (<react_native_1.View style={styles.footerContainer}>
         <react_native_1.TouchableOpacity style={{ flexDirection: 'row', alignItems: 'center' }} onPress={() => toggleAll(allCheck)}>
-          <checkbox_1.default style={styles.checkBox} value={allCheck} onChange={() => toggleAll(allCheck)} tintColors={{ true: Colors_1.Colors.primary, false: Colors_1.Colors.gray }} onCheckColor={Colors_1.Colors.primary} tintColor={Colors_1.Colors.gray}/>
+          <checkbox_1.default disabled={true} style={styles.checkBox} value={allCheck} onChange={() => toggleAll(allCheck)} tintColors={{ true: Colors_1.Colors.primary, false: Colors_1.Colors.gray }} onCheckColor={Colors_1.Colors.primary} tintColor={Colors_1.Colors.gray}/>
           <react_native_1.Text style={styles.selectAll}>{props.selectAll}</react_native_1.Text>
         </react_native_1.TouchableOpacity>
       </react_native_1.View>);
@@ -114,7 +114,7 @@ const styles = react_native_1.StyleSheet.create({
     selectAll: {
         fontSize: 13,
         width: '100%',
-        color: Colors_1.Colors.darkGray,
+        color: Colors_1.Colors.primary,
         fontWeight: 'bold',
     },
     detailText: {
